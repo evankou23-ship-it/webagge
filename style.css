@@ -21,3 +21,8 @@ img{
     scale:.3
     style="width:50px;height:60px";
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
