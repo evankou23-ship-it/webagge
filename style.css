@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(196, 196, 143);
+
+}
+
+.h{
+    color:rgb(17, 44, 67);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:1000;
+    font-size: xx-large;
+}
+
+#main{
+
+    max-width: fit-content;
+    margin: auto;
+
+}
+
+img{
+    scale:.3
+    style="width:50px;height:60px";
+}
