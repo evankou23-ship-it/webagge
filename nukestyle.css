@@ -1,0 +1,126 @@
+
+/* Easy color customization using variables */
+:root {
+    --bg-color: rgb(206, 160, 8);         /* Page background */
+    --primary-text: rgb(17, 44, 67);      /* Main text color */
+    --accent: rgb(200, 50, 50);           /* Accent color (buttons, hover, etc.) */
+    --card-bg: rgb(255, 255, 255);                     /* Container/card background */
+}
+
+
+
+.h {
+    color: var(--primary-text);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+
+    /* Fun additions */
+    text-align: center;
+    transition: 5s;
+}
+
+/* Hover effect for title */
+.h:hover {
+    color: var(--accent);
+    transform: scale(2.05);
+}
+
+
+
+
+#main {
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+
+    /* Card-like styling */
+    background-color: var(--card-bg);
+}
+
+
+/* =========================
+   IMAGE STYLING
+   ========================= */
+
+img {
+    width: 150px;              /* FIXED: use width instead of scale */
+    height: auto;
+    transition: 5s;
+}
+
+/* Fun hover zoom effect */
+img:hover {
+    transform: scale(10);
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Centers both horizontally and vertically */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* space between items */
+}
+
+
+.huge-text {
+    font-size: 10vw; /* scales with screen size */
+    text-align: center;
+    color: var(--primary-text);
+}
+
+
+/* =========================
+   BONUS: BUTTON STYLE
+   ========================= */
+
+.button {
+    background-color: var(--accent);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+
+/* =========================
+   BONUS: DARK MODE TOGGLE
+   ========================= */
+
+/* Add class "dark-mode" to body in JS to enable */
+.dark-mode {
+    --bg-color: #121212;
+    --primary-text: #f1f1f1;
+    --card-bg: #1e1e1e;
+    --accent: #ff9800;
+}
+
+:root {
+    --bg-image: url("/pictures/coolingtowerMe.jpg"); /* replace with your image file */
+}
+
+/* Apply background image */
+body {
+    background-image: var(--bg-image);
+
+    /* Repeat the image across the page */
+    background-repeat: repeat;
+
+    /* Optional tweaks */
+    background-size: 150px;   /* controls tile size */
+    background-position: top left;
+}
