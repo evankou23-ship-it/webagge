@@ -1,0 +1,106 @@
+
+:root {
+    --bg-color: rgb(206, 160, 8);         /* Page background */
+    --card-bg: rgb(172, 216, 165);                     /* Container/card background */
+}
+
+
+
+.h {
+    color: var(--primary-text);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+#main {
+    max-width: fit-content;
+    margin: auto;
+    padding: 28px;
+
+    /* Card-like styling */
+    background-color: var(--card-bg);
+}
+
+img {
+    width: 150px;              /* FIXED: use width instead of scale */
+    height: auto;
+    transition: 5s;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Centers both horizontally and vertically */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* space between items */
+}
+
+
+.huge-text {
+    font-size: 10vw; /* scales with screen size */
+    text-align: center;
+    color: var(--primary-text);
+}
+
+
+/* =========================
+   BONUS: BUTTON STYLE
+   ========================= */
+
+.button {
+    background-color: var(--accent);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+
+/* =========================
+   BONUS: DARK MODE TOGGLE
+   ========================= */
+
+/* Add class "dark-mode" to body in JS to enable */
+.dark-mode {
+    --bg-color: #121212;
+    --primary-text: #f1f1f1;
+    --card-bg: #1e1e1e;
+    --accent: #ff9800;
+}
+
+:root {
+    --bg-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F02%2F75502-050-EF1DDE67%2FMount-Rushmore-National-Memorial-South-Dakota.jpg&f=1&nofb=1&ipt=c8930b1e7653661ce3e102beaf387a156d82951a0ed4278888a2612d2cadc207"); /* replace with your image file */
+}
+
+/* Apply background image */
+body {
+    background-image: var(--bg-image);
+
+    /* Repeat the image across the page */
+    background-repeat: repeat;
+
+    /* Optional tweaks */
+    background-size: 150px;   /* controls tile size */
+    background-position: top left;
+}

@@ -36,3 +36,13 @@ img{
 h0{
     font-size:100vw
 }
+
+.scroll-box {
+    height: 90px;        /* controls how tall the box is */
+    width: 300px;         /* optional */
+    overflow-x: hidden;   /* prevents sideways scroll */
+    border: 1px solid black;
+    padding: 1px;
+    margin: 0 auto;   
+
+}
