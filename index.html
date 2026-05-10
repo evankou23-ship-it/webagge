@@ -89,35 +89,45 @@
 
         <br>
         <br>
-      <label for="testbar">Percent of 2026 complete:</label>
-<progress id="testbar" value="1" max="365">0%</progress>
+        <label for="testbar">Percent of 2026 complete:</label>
+        <progress id="testbar" value="1" max="365">0%</progress>
 
-<br>
-<br>
+        <br>
+        <br>
         <label for="testbar2">Percent of college complete:</label>
         <progress id="testbar2" value="29" max="48"> 29 months </progress>
-    <br>
-    <br>
-    <label for="favcolor">Pick your favorite color:</label>
-<input type="color" id="favcolor" name="favcolor">
     </div>
-    <br>
 
 
+    
     <br>
     <br>
 <a href="mailto:evankou23@gmail.com">Feedback? Send me an email!</a>
     <br>
     <br>
     
-    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
-      <input type="number" id="b" name="b" value="10" /> +
-      <input type="number" id="a" name="a" value="10" /> =
-      <output name="result" for="a b">20</output>
- </form>
+<html> 
+<head></head>
+<body>
+    <div class="container">
+        <div class="counter">
+            <p id="count">0</p>
+        </div>
+        <div>
+            <button onclick="dec()">Decrement</button>
+            <button onclick="inc()">Increment</button>
+        </div>
+        <div class="clicks">
+            <p>Clicks on Increment: <span id="incCount">0</span></p>
+            <p>Clicks on Decrement: <span id="decCount">0</span></p>
+        </div>
+    </div>
+</body>
+</html>
 
-    <br>
- 
+
+
+    <br> 
     <br>
     <br>
     <br>

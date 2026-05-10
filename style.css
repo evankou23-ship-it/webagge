@@ -43,6 +43,34 @@ h0{
     overflow-x: hidden;   /* prevents sideways scroll */
     border: 1px solid black;
     padding: 1px;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    background-color: #ebd9d9a8;
+ 
 
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.counter {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.clicks {
+    font-size: 1.1em;
+    margin-top: 10px;
 }
