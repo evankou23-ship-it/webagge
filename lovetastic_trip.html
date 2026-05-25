@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Road Trip</title>
+
+<style>
+    body {
+        margin: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    
+    .container {
+        display: flex;
+        width: 300vw; /* increase as you add panels */
+        height: 100vh;
+        scroll-snap-type: x mandatory;
+    }
+
+    /* Each panel */
+    .panel {
+        flex: 0 0 100vw;
+        height: 100vh;
+        scroll-snap-align: start;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        box-sizing: border-box;
+    }
+
+    /* Styling for content box inside panels */
+    .content {
+        background: rgb(213, 235, 232);
+        padding: 30px;
+        max-width: 600px;
+    }
+
+    /* Different background colors per panel (optional) */
+    .p1 { background: #cd4d4d; }
+    .p2 { background: #5393d3; }
+    .p3 { background: #fff3df; }
+    .p4 { background: #7716d3a0; }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Panel 1: Overview -->
+    <section class="panel p1">
+        <div class="content">
+            <h1>A Lovetastic Roadtrip </h1>
+            <p>
+                In the summer of 2026, Evan famously earned a position at Los Alamos National Lab (LANL), famously in New Mexico. As it happens,
+                 he was tasked with bringing his car there. To ease the driving from Long Island, he brought along three long-time friends: Garrett, Jordan, and Joshua. This is their story. 
+            </p>
+            <img src="tripphotos/joshintro.png" alt="evan" style="float:right;width:150px;height:150px;">
+            <img src="tripphotos/jordanintro.png" alt="evan" style="float:right;width:150px;height:150px;">
+            <img src="tripphotos/garrettintro.png" alt="evan" style="float:right;width:150px;height:150px;">
+            <img src="tripphotos/evanintro.png" alt="evan" style="float:right;width:150px;height:150px;">
+
+    
+        </div>
+    </section>
+
+    <section class="panel p2">
+        <div class="content">
+            <h1>Leaving the island</h1>
+            <p>First day was a big one. After leaving with Garrett and Josh, Evan drove to Jordan's house and they were on their way with a automobile stuffed to the brim. Waze coming in clutch is a general theme from this point on,
+                 leading them down the LIE and across the Verrazano. It was a little early for Josh, but it was strange knowing they'd be in Washington DC later that afternoon. </p>
+                 <img src="tripphotos/leavingPOV.jpg"  style="float:center;width:240px;height:300px;">
+                 <img src="tripphotos/Joshcanthang.jpg"  style="float:center;width:350px;height:300px;">
+
+        </div>
+    </section>
+
+
+    <section class="panel p3">
+        <div class="content">
+            <h1>Washington DC</h1>
+            <p>After switching at a rest stop in Jersey (does not deserve a page), Garrett safely brought them to the nation's capital at a crisp 1pm. As it goes, the weather was NOT crisp, and the gang was 
+                boiling outside at 95 degrees F. This moderately hampered their time in the city, but they still got to see many of the sights, excluding an under-construction Hwite House. Only second time there, but the city's infracture 
+                was very appreciated, offering much a difference from the dense NYC. Events included the Botanical Gardens, Capitol, DOJ housing the Epstein files, and the unintentional birth of "Tyler."
+                <br>
+                 <img src="tripphotos/joshhwitehouse.jpg"  style="float:center;width:200px;height:200px;">
+                 <img src="tripphotos/botanicalgardens.jpg"  style="float:center;width:300px;height:200px;">
+                 <img src="tripphotos/doj.jpg"  style="float:center;width:400px;height:200px;">
+                 <img src="tripphotos/garrettcapitol.jpg"  style="float:center;width:200px;height:200px;">
+                 <img src="tripphotos/washmonument.jpg"  style="float:center;width:150px;height:200px;">
+                 <img src="tripphotos/tyler.jpg"  style="float:center;width:150px;height:200px;">
+
+            
+            </p>
+        </div>
+    </section>
+
+
+    <section class="panel p4">
+        <div class="content">
+            <h1>Brief Intermission</h1>
+            <h3>These were some very relevant songs during the journey for myriad reasons:</h3>
+            <li><i>Some Nights</i> - fun.</li>
+            <li><i>Pursuit of Happiness</i> - Kid Cudi</li>
+            <li><i>Gorilla</i> - Bruno Mars</li>
+            <li><i>Horse with No Name</i> - America</li>
+            <li><i>God Is</i> - Kanye West</li>
+            <li><i>Whistle</i> - Flo Rida</li>
+            <li><i>Nice Peter vs EpicLLOYD 2</i> - Epic Rab Battles of History</li>
+        
+        </div>
+    </section>
+
+    <section class="panel p5">
+        <div class="content">
+            <h1>Charlottesville</h1>
+            <p>From DC, Josh took the wheel and brought them 2 more hours south to Charlottesville, VA where they would spend the night. 
+                Approaching what is considered the South, they realized this was quite the college town, housing UVA itself. As such, they stopped at little bar-restaurant 
+                called the Virginian, and had some delicious food after a long day. Unfortunatetly for Evan, this was his first introduction to Southern sweet tea, which would 
+                grow into an addiction later on. They walked around the town a bit, but ultimately called it a day after DC and retired to a cozy Charlottesville hotel where they assuredly fell asleep instantly.<br><br>
+                 <img src="tripphotos/virginian2.jpg"  style="float:center;width:250px;height:200px;">
+                 <img src="tripphotos/Virginian1.jpg"  style="float:center;width:250px;height:200px;">
+ 
+            
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
