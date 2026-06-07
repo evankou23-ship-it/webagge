@@ -39,20 +39,13 @@
 }
 
 
-/* =========================
-   IMAGE STYLING
-   ========================= */
+
 
 img {
     width: 150px;              /* FIXED: use width instead of scale */
     height: auto;
-    transition: 5s;
 }
 
-/* Fun hover zoom effect */
-img:hover {
-    transform: scale(10);
-}
 
 
 .center {
@@ -76,19 +69,6 @@ img:hover {
 }
 
 
-/* =========================
-   BONUS: BUTTON STYLE
-   ========================= */
-
-.button {
-    background-color: var(--accent);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
 /* Button hover effect */
 .button:hover {
@@ -97,30 +77,13 @@ img:hover {
 }
 
 
-/* =========================
-   BONUS: DARK MODE TOGGLE
-   ========================= */
-
-/* Add class "dark-mode" to body in JS to enable */
-.dark-mode {
-    --bg-color: #121212;
-    --primary-text: #f1f1f1;
-    --card-bg: #1e1e1e;
-    --accent: #ff9800;
-}
 
 :root {
-    --bg-image: url("/pictures/coolingtowerMe.jpg"); /* replace with your image file */
+    --bg-image: url("/pictures/coolingtowerMe.jpg");
 }
 
-/* Apply background image */
 body {
     background-image: var(--bg-image);
-
-    /* Repeat the image across the page */
     background-repeat: repeat;
-
-    /* Optional tweaks */
-    background-size: 150px;   /* controls tile size */
-    background-position: top left;
+    background-size: 150px;   
 }
