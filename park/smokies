@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We have been to the mountain top.</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(148, 192, 142);
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .panel {
+            background-color: rgb(112, 181, 237);
+            width: 800px;
+            padding: 20px;
+        }
+
+        .panel h1 {
+            margin-top: 0;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .links a:hover {
+            background-color: rgb(50, 195, 31);
+            color: rgb(132, 105, 17);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="panel">
+        <h1>#4 Great Smoky Mountains, TN </h1>
+        <h3>It might be a little unfair to rank this so low, but it all fairness it's kinda just mountains. According to the 
+            <abbr title="National Park Service">NPS</abbr> it's the most visited national park, but that said, when I visited it was not even smoky at all... 
+                    <br><img style="width:800px;height:550px;" src="/parkpix/smokies1.jpg" alt="Rolling mountains.">
+            <p>There, I did not have much time to hike around, but we still got some pretty breathtaking views and great photo opportunities. </p>
+                            <br><img style="width:800px;height:550px;" src="/parkpix/smokies2.jpg" alt="Rolling mountains.">
+            <p>We all decided to wear polo shirts headed up this mountain for some reason. This was also my first time really being INSIDE a mountain range, so safe to say it was still very cool. Only thing is, it's overshadowed by the other parks on this list.  </p>
+                            <br><img style="width:800px;height:1000px;" src="/parkpix/smokies3.jpg" alt="Garrett C. War'n.">
+        <br><br>
+<style>
+h1 {text-align: center;}
+</style>
+</head>
+<body>
+
+<h1><u>I rate this park a 4pm on do-nothing Saturday. </u></h1>        
+    <br>    
+    </h3>
+       
+        <h4><a href="/parks.html">BACK</a></h4>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Dunes.</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(206, 200, 127);
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .panel {
+            background-color: rgb(217, 203, 201);
+            width: 800px;
+            padding: 20px;
+        }
+
+        .panel h1 {
+            margin-top: 0;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .links a:hover {
+            background-color: rgb(50, 195, 31);
+            color: rgb(132, 105, 17);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="panel">
+        <h1>#2 The Great Sand Dunes, CO </h1>
+        <h3>I won't lie, this is a big jump up from the Guadalupe Mountains -- I mean just look at this. Approaching, it doesn't even look that large, but once you're in, 
+            you are engulfed completely inside the dunes.  
+                    <br><img style="width:390px;height:500px;" src="/parkpix/dune1.jpg" alt="Rolling mountains.">
+                    <img style="width:390px;height:500px;" src="/parkpix/dune2.1.jpg" alt="Rolling mountains.">
+
+            <p>TIPS: Two old, large gentlemen in a diner said to wear socks when climbing -- Do this! It actually came in clutch and forwent sand in shoes. Also the wind it zephyrous at the top, so ensure your face and eyes are covered. 
+                And if you dare wear shorts, be prepared to be sandblasted every 10 minutes. It's honestly wasn't that temperature hot -- but everything else is unforgiving. 
+            </p>
+                    <br><img style="width:800px;height:550px;" src="/parkpix/dune3.jpg" alt="Rolling mountains.">
+            <p>Climbing up to the tallest peak they let you, it feels like trekking through the deep Sahara of Morocco -- like actually indistinguishable.
+                You get the most incredible view though.    </p>
+                            <br><img style="width:800px;height:600px;" src="/parkpix/dune4.jpg" alt="Garrett C. War'n.">
+                    <img style="width:395px;height:500px;" src="/parkpix/dune7.jpg" alt="Garrett C. War'n.">
+                    <img style="width:400px;height:500px;" src="/parkpix/dune5.jpg" alt="Garrett C. War'n.">
+            <p>I was fortunate to get the hottest photograph ever in the desert dunes, to constrast with the coldest photo in an Icelandic cave.</p>
+                    <img style="width:160px;height:200px;" src="/parkpix/dunehot.jpg" alt="Garrett C. War'n.">
+                    <img style="width:235px;height:200px;" src="/parkpix/dunecold.jpg" alt="Garrett C. War'n.">     <br>      And at the end, we closed off with a small intimate hike overlooking the dunes, and saw a perfect little cactus. This place just engulfs you in a completely different biome from where you live, and I cannot recommend it enough. <br><br>
+
+           <style>
+h1 {text-align: center;}
+</style>
+</head>
+<body>
+
+<h1><u >On a scale of Clay to Boulder, I rate this park a Cobble.</u></h1>
+            
+        
+                       <br><br> <img style="width:800px" src="/parkpix/dune6.jpg" alt="Garrett C. War'n.">
+
+    <br>    
+    </h3>
+       
+        <h4><a href="person.html">BACK</a></h4>
+    </div>
+
+</body>
+</html>
